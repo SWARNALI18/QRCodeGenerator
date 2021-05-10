@@ -18,7 +18,7 @@ import java.io.FileOutputStream;
 import net.glxn.qrgen.QRCode;
 public class QRCodeGen  {
     public static void main(String[] args)throws Exception {
-        String Details="I am Swarnali with no Dream,no destiny,no aim,no goal.";
+        String Details="I am Swarnali , ,Mythology Lover.";
         ByteArrayOutputStream out=QRCode.from(Details).to(ImageType.JPG).stream();
         File f=new File("C:\\Users\\user\\Downloads\\MyChannel.jpg");
         FileOutputStream fos=new FileOutputStream(f);
